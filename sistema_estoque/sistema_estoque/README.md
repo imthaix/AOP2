@@ -2,7 +2,7 @@
 
 ## Identificação
 - **Nome da aplicação:** Sistema de Controle de Estoque
-- **Aluna:** (colocar o nome aqui)
+- **Aluna:** Thaislainy Santos
 - **Disciplina:** Técnicas Avançadas de Programação Web
 - **Descrição resumida:** aplicação web feita com Django para cadastrar produtos e controlar as entradas e saídas do estoque.
 
