@@ -1,0 +1,60 @@
+/* estilo simples do sistema */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 { margin: 0; }
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th { background: #e8e8e8; }
+
+.botao, button {
+    background: #2c3e50;
+    color: white;
+    padding: 7px 14px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mensagem { padding: 10px; background: #dff0d8; }
+.mensagem.error { background: #f2dede; }
+.vermelho { color: #c0392b; font-weight: bold; }
+.errorlist { color: #c0392b; padding-left: 0; list-style: none; }
