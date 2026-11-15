@@ -6,7 +6,7 @@ from .forms import MovimentacaoForm, ProdutoForm
 from .models import Movimentacao, Produto
 
 
-# ---------- CRUD de produtos ----------
+# CRUD de produto
 
 def produto_lista(request):
     # READ: lista todos os produtos
@@ -53,7 +53,7 @@ def produto_excluir(request, pk):
     return render(request, "estoque/confirmar_exclusao.html", {"produto": produto})
 
 
-# ---------- movimentacoes ----------
+# movimentacoee
 
 def movimentacao_lista(request):
     movimentacoes = Movimentacao.objects.all().order_by("-data")
